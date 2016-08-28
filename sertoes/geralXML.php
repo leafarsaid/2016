@@ -39,8 +39,7 @@ foreach ($arr_ss as $x) array_push($campos_header_ss,"ss".$x);
 array_push($campos_header_ss,"tempo");
 array_push($campos_header_ss,"penalidade");
 array_push($campos_header_ss,"bonus");
-array_push($campos_header_ss,"total");
-array_push($campos_header_ss,"diferenca_lider");
+array_push($campos_header_ss,"total");array_push($campos_header_ss,"diferenca_lider");array_push($campos_header_ss,"diferenca_anterior");
 
 $texto .= geraLinhaXml ("veiculo", $lista, $campos_header_ss);
 $texto .= sprintf("</geral>\n\r");

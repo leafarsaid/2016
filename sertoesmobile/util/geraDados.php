@@ -69,7 +69,8 @@ function geraDadosGeral($arr_comp, $iFIM) {
 			array_push($arr_retorno[$i],($stat == "N") ? $arr_comp[$i]["penais"] : "* * *");	//total de penalidades
 			array_push($arr_retorno[$i],$arr_comp[$i]["bonus"]);	//total de bonus
 			array_push($arr_retorno[$i],$total_txt);	//tempo total
-			array_push($arr_retorno[$i],($i != 0) ? substr(secToTime($arr_comp[$i]["tempoTotal"]-$arr_comp[0]["tempoTotal"]),0,$length_str) : "*"); //dif. lider
+			array_push($arr_retorno[$i],($i != 0) ? substr(secToTime($arr_comp[$i]["tempoTotal"]-$arr_comp[0]["tempoTotal"]),0,$length_str) : ""); //dif. lider
+			array_push($arr_retorno[$i],($i > 1) ? substr(secToTime($arr_comp[$i]["tempoTotal"]-$arr_comp[$i-1]["tempoTotal"]),0,$length_str) : ""); //dif. ant
 		}
 		else
 		{
@@ -77,7 +78,8 @@ function geraDadosGeral($arr_comp, $iFIM) {
 			array_push($arr_retorno[$i],"* * *");	//total de penalidades
 			array_push($arr_retorno[$i],"* * *");	//total de bonus
 			array_push($arr_retorno[$i],"* * *");	//tempo total
-			array_push($arr_retorno[$i],"* * *");	//dif. lider
+			array_push($arr_retorno[$i],"");	//dif. lider
+			array_push($arr_retorno[$i],"");   //dif. ant
 		}
 	}
 	return $arr_retorno;
@@ -145,21 +147,23 @@ function geraDadosSS($arr_comp, $iFIM) {
 			array_push($arr_retorno[$i],($stat == "N") ? $arr_comp[$i]["penais"] : "* * *");	//penalidades
 			array_push($arr_retorno[$i],$arr_comp[$i]["bonus"]);	//bonus
 			array_push($arr_retorno[$i],substr(secToTime($arr_comp[$i]["tempoTotal"]),0,$length_str));	//tempo total
-			array_push($arr_retorno[$i],($i != 0) ? substr(secToTime($arr_comp[$i]["tempoTotal"]-$arr_comp[0]["tempoTotal"]),0,$length_str) : "*"); //dif. lider total
-			array_push($arr_retorno[$i],($i != 0) ? substr(secToTime($arr_comp[$i]["tempo"]-$arr_comp[0]["tempo"]),0,$length_str) : "*"); //dif. lider bruto
+			array_push($arr_retorno[$i],($i != 0) ? substr(secToTime($arr_comp[$i]["tempoTotal"]-$arr_comp[0]["tempoTotal"]),0,$length_str) : ""); //dif. lider total
+			array_push($arr_retorno[$i],($i > 1) ? substr(secToTime($arr_comp[$i]["tempoTotal"]-$arr_comp[$i-1]["tempoTotal"]),0,$length_str) : ""); //dif. ant
+			array_push($arr_retorno[$i],($i != 0) ? substr(secToTime($arr_comp[$i]["tempo"]-$arr_comp[0]["tempo"]),0,$length_str) : ""); //dif. lider bruto
 		}
 		else
 		{
-			array_push($arr_retorno[$i],"* * *");
-			array_push($arr_retorno[$i],"* * *");
-			array_push($arr_retorno[$i],"* * *");
-			array_push($arr_retorno[$i],"* * *");
+			array_push($arr_retorno[$i],secToTime($arr_comp[$i]["tempo1"]));
+			array_push($arr_retorno[$i],secToTime($arr_comp[$i]["tempo2"]));
+			array_push($arr_retorno[$i],secToTime($arr_comp[$i]["tempo3"]));
+			array_push($arr_retorno[$i],secToTime($arr_comp[$i]["tempo4"]));
 			array_push($arr_retorno[$i],"* * *");	//tempo sem penalidades
 			array_push($arr_retorno[$i],"* * *");	//penalidades
 			array_push($arr_retorno[$i],"* * *");	//bonus
 			array_push($arr_retorno[$i],"* * *");	//tempo total
-			array_push($arr_retorno[$i],"* * *");	//dif. lider
-			array_push($arr_retorno[$i],"* * *");	//dif. lider bruto
+			array_push($arr_retorno[$i],"");	//dif. lider
+			array_push($arr_retorno[$i],"");	//dif. ant
+			array_push($arr_retorno[$i],"");	//dif. lider bruto
 		}
 		
 		//VELOCIDADE MEDIA

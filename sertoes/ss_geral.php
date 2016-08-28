@@ -76,6 +76,7 @@ foreach ($lista_array_ss as $v) {
 	//TEMPO - DIF. LIDER
 	$str_tempo_total = '<div style="font-size:14px"><b>'.substr($v['total'],0,10)."</b></div>";
 	$str_tempo_total .='<br>'.substr($v['diferenca_lider'],0,10);
+	$str_tempo_total .='<br>'.substr($v['diferenca_anterior'],0,10);
 	array_push($lista_ss[$i], $str_tempo_total);
 	$i++;
 }

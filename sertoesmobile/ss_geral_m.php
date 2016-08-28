@@ -126,6 +126,7 @@ foreach ($lista_array_geral as $v) {
 	//TEMPO TOTAL - DIF. LIDER
 	$str_tempo_total = '<div style="font-size:14px"><b>'.substr($v['total'],0,8)."</b></div>";
 	$str_tempo_total .='<br> <div style="color:blue ; font-size:20px">'.substr($v['diferenca_lider'],0,8);
+	$str_tempo_total .='<br> <div style="color:blue ; font-size:20px">'.substr($v['diferenca_anterior'],0,8);
 	array_push($lista_geral[$i], $str_tempo_total);
 	$i++;
 }

@@ -47,6 +47,7 @@ array_push($campos_header_ss,"penalidade");
 array_push($campos_header_ss,"bonus");
 array_push($campos_header_ss,"total");
 array_push($campos_header_ss,"diferenca_lider");
+array_push($campos_header_ss,"diferenca_anterior");
 array_push($campos_header_ss,"diferenca_lider_bruto");
 array_push($campos_header_ss,"vel_media");
 

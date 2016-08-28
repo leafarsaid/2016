@@ -4,34 +4,43 @@ header("Cache-Control: no-cache, must-revalidate",true);
 header("Pragma: no-cache",true);
 
 function timetosec4($time){
-	$str_time = preg_replace("/^([\d]{1,2})\:([\d]{2})$/", "00:$1:$2", $time);
-	sscanf($str_time, "%d:%d:%d", $hours, $minutes, $seconds);
+	//$str_time = preg_replace("/^([\d]{1,2})\:([\d]{2})$/", "00:$1:$2", $time);
+	//sscanf($str_time, "%d:%d:%d", $hours, $minutes, $seconds);
+	$arr_time = explode(":",$time);
+	$hours = $arr_time[0];
+	$minutes = $arr_time[1];
+	$seconds = str_replace(",", ".", $arr_time[2]);
 	$time_seconds = $hours * 3600 + $minutes * 60 + $seconds;
-	return $time_seconds;
+	return $time_seconds*10;
 }
 
 function posicoes_coluna($lista, $coluna){
 	$array_coluna = array();
-	$array_posicoes = array();
 
 	for($f=0; $f < sizeof($lista); $f++){
 	
 		$tempo = timetosec4($lista[$f][$coluna]);
-		if($tempo != "03:46:39.00" && $tempo != "* * *"){
+		if($tempo != 99999 && $lista[$f][$coluna] != "* * *"){
 			$array_coluna[] = $tempo;
 		}
 	}
 	
-	asort($array_coluna);
+	$array_coluna_original = $array_coluna;
+	sort($array_coluna);
+
+	$array_posicoes = array();
 	
-	foreach($array_coluna as $key => $val){
-		$array_posicoes[] = $key+1;
+	foreach($array_coluna_original as $key => $val){
+		foreach($array_coluna as $key2 => $val2){
+			if($val == $val2){
+				$array_posicoes[] = $key2+1;
+				//$array_posicoes[] = ($key2+1)."-".($val);
+			}
+		}
 	}
 	
 	return $array_posicoes;
 }
-
-//var_dump(posicoes_coluna($lista,13));
 
 require_once"util/objDB.php";
 require_once"util/gerador_linhas.php";
@@ -55,11 +64,42 @@ $posicoes_i2 = posicoes_coluna($lista,14);
 $posicoes_i3 = posicoes_coluna($lista,15);
 $posicoes_i4 = posicoes_coluna($lista,16);
 
+$f1 = 0;
+$f2 = 0;
+$f3 = 0;
+$f4 = 0;
+
 for($f=0; $f < sizeof($lista); $f++){
-	$lista[$f][13] = ($lista[$f][13] == "03:46:39.00" || $lista[$f][13] == "* * *") ? "* * *" : $lista[$f][13]."&lt;br /&gt;(".$posicoes_i1[$f].")";
-	$lista[$f][14] = ($lista[$f][14] == "03:46:39.00" || $lista[$f][14] == "* * *") ? "* * *" : $lista[$f][14]."&lt;br /&gt;(".$posicoes_i2[$f].")";
-	$lista[$f][15] = ($lista[$f][15] == "03:46:39.00" || $lista[$f][15] == "* * *") ? "* * *" : $lista[$f][15]."&lt;br /&gt;(".$posicoes_i3[$f].")";
-	$lista[$f][16] = ($lista[$f][16] == "03:46:39.00" || $lista[$f][16] == "* * *") ? "* * *" : $lista[$f][16]."&lt;br /&gt;(".$posicoes_i4[$f].")";
+	if ($lista[$f][13] == "* * *") {
+		$lista[$f][13] = "* * *";
+	} else{
+		$lista[$f][13] = $lista[$f][13]."&lt;br /&gt;(".$posicoes_i1[$f1].")";
+		$f1++;
+	}
+	
+
+	if ($lista[$f][14] == "* * *") {
+		$lista[$f][14] = "* * *";
+	} else{
+		$lista[$f][14] = $lista[$f][14]."&lt;br /&gt;(".$posicoes_i2[$f2].")";
+		$f2++;
+	}
+	
+
+	if ($lista[$f][15] == "* * *") {
+		$lista[$f][15] = "* * *";
+	} else{
+		$lista[$f][15] = $lista[$f][15]."&lt;br /&gt;(".$posicoes_i3[$f3].")";
+		$f3++;
+	}
+	
+
+	if ($lista[$f][16] == "* * *") {
+		$lista[$f][16] = "* * *";
+	} else{
+		$lista[$f][16] = $lista[$f][16]."&lt;br /&gt;(".$posicoes_i4[$f4].")";
+		$f4++;
+	}
 }
 
 printf("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n\r");
@@ -89,6 +129,7 @@ array_push($campos_header_ss,"penalidade");
 array_push($campos_header_ss,"bonus");
 array_push($campos_header_ss,"total");
 array_push($campos_header_ss,"diferenca_lider");
+array_push($campos_header_ss,"diferenca_anterior");
 array_push($campos_header_ss,"diferenca_lider_bruto");
 array_push($campos_header_ss,"vel_media");
 
