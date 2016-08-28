@@ -87,8 +87,7 @@ foreach ($lista_array as $v) {
 	array_push($lista[$i], $str_penais_bonus);
 
 	//TEMPO TOTAL - DIF. LIDER
-	$str_tempo_total = '<div style="font-size:14px"><b>'.substr($v['total'],0,$length_str)."</b></div>";
-	$str_tempo_total .='<div style="font-size:20px"><br>'.substr($v['diferenca_lider'],0,$length_str);
+	$str_tempo_total = '<div style="font-size:14px"><b>'.substr($v['total'],0,$length_str)."</b></div>";	$str_tempo_total .='<br>'.substr($v['diferenca_lider'],0,$length_str);	$str_tempo_total .='<br>'.substr($v['diferenca_anterior'],0,$length_str);
 	array_push($lista[$i], $str_tempo_total);
 	$i++;
 }
