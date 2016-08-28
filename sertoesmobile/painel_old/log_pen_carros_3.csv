@@ -1,0 +1,9 @@
+314;00:01:00;VelPerm=110Km/h Pico=115Km/h as 15:23:44 (durante 3 seg ) Erro=5Km/h (4,54%)
+320;06:55:00;Perdeu 35 Wpt(s) Roteiro (W3003, W3016, W3035, W3092, W3109, W3139, W3143, W3145, W3155, W3176, W3212, W3219, W3229, W3245, W3257, W3284, W3287, W3297, W3306, W3385, W3396, W3412, W3421, W3431, W3437, W3447, W3448, W3490, W3503, W3189 e etc)
+340;00:01:00;VelPerm=30Km/h Pico=44Km/h as 14:33:37 (durante 4 seg ) Erro=14Km/h (46,66%)
+340;00:01:00;VelPerm=110Km/h Pico=125Km/h as 16:38:13 (durante 14 seg ) Erro=15Km/h (13,63%)
+348;00:01:00;VelPerm=110Km/h Pico=120Km/h as 16:00:51 (durante 5 seg ) Erro=10Km/h (9,09%)
+349;00:01:00;VelPerm=110Km/h Pico=116Km/h as 16:09:24 (durante 5 seg ) Erro=6Km/h (5,45%)
+358;00:00:14;Lg=14:23:49 Ch=14:38:42 Real=00:14:53 Min=0:15:00.00 Dif=00:00:07 (0,77%)( x2)
+368;00:20:00;Excedeu 30 seg / Vel Perm=110Km/h Ini=15:39:08 Fim=15:40:30 (durante 82 seg) Pico=150Km/h
+
