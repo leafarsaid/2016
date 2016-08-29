@@ -3,45 +3,6 @@ header("Content-type: text/xml; charset=utf-8",true);
 header("Cache-Control: no-cache, must-revalidate",true);
 header("Pragma: no-cache",true);
 
-function timetosec4($time){
-	//$str_time = preg_replace("/^([\d]{1,2})\:([\d]{2})$/", "00:$1:$2", $time);
-	//sscanf($str_time, "%d:%d:%d", $hours, $minutes, $seconds);
-	$arr_time = explode(":",$time);
-	$hours = $arr_time[0];
-	$minutes = $arr_time[1];
-	$seconds = str_replace(",", ".", $arr_time[2]);
-	$time_seconds = $hours * 3600 + $minutes * 60 + $seconds;
-	return $time_seconds*10;
-}
-
-function posicoes_coluna($lista, $coluna){
-	$array_coluna = array();
-
-	for($f=0; $f < sizeof($lista); $f++){
-	
-		$tempo = timetosec4($lista[$f][$coluna]);
-		if($tempo != 99999 && $lista[$f][$coluna] != "* * *"){
-			$array_coluna[] = $tempo;
-		}
-	}
-	
-	$array_coluna_original = $array_coluna;
-	sort($array_coluna);
-
-	$array_posicoes = array();
-	
-	foreach($array_coluna_original as $key => $val){
-		foreach($array_coluna as $key2 => $val2){
-			if($val == $val2){
-				$array_posicoes[] = $key2+1;
-				//$array_posicoes[] = ($key2+1)."-".($val);
-			}
-		}
-	}
-	
-	return $array_posicoes;
-}
-
 require_once"util/objDB.php";
 require_once"util/gerador_linhas.php";
 require_once"util/sql.php";

@@ -19,8 +19,8 @@ $strFIM = $_REQUEST["campeonato"];
 ///
 
 $array_todos = criaArray(geraSqlGeral2($arr_ss, $int_id_cat, $int_id_mod, $mod, $strFIM));
-$lista = geraDadosGeral($array_todos, $_REQUEST["fim"]);
-
+$lista = geraDadosGeral($array_todos, $_REQUEST["fim"]);foreach ($arr_ss as $x) {	$pss = $x+7;	
+	$posicoes = posicoes_coluna($lista,$pss);		$fss = 0;		for($f=0; $f < sizeof($lista); $f++){		if ($lista[$f][$pss] == "* * *") {			$lista[$f][$pss] = "* * *";		} else{			$lista[$f][$pss] .= "&lt;br /&gt;(".$posicoes[$fss].")";			$fss++;		}	}}
 printf("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n\r");
 $texto = sprintf("<geral>\n\r");
 
@@ -34,7 +34,7 @@ array_push($campos_header_ss,"licenca");
 array_push($campos_header_ss,"equipe");
 array_push($campos_header_ss,"categoria");
 
-foreach ($arr_ss as $x) array_push($campos_header_ss,"ss".$x);
+foreach ($arr_ss as $x) {	array_push($campos_header_ss,"ss".$x);}
 
 array_push($campos_header_ss,"tempo");
 array_push($campos_header_ss,"penalidade");

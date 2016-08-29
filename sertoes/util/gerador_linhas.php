@@ -312,11 +312,18 @@ function geraFooter($iCat, $iMod, $strMod) {
 *
 */
 function geraTxtPag($sPag, $sTrechos, $iTrecho) {
+	global $arr_ss;
+	
 	$titulo = $_REQUEST['titulo'];
+	if (!$iTrecho){
+		$ult = sizeof($arr_ss)-1;
+		$iTrecho =$arr_ss[$ult];
+	}
+	
 	$tre = criaArray ("SELECT * FROM t02_trecho WHERE c02_codigo=".$iTrecho);
 	$dist_esp_tot = $tre[0]["c02_distancia"] + $tre[0]["c02_desl_ini"] + $tre[0]["c02_desl_fin"];
 
-	$txt_Pag = ($sPag == "geral") ? (($sTrechos) ? "RESULTADOS ACUMULADOS ": "ACUMULADO AT&Eacute; ") : "";
+	$txt_Pag = ($sPag == "geral") ? "ACUMULADO AT&Eacute; " : "";	
 	$txt_Pag .= $tre[0]["c02_nome"].": ".$tre[0]["c02_origem"]." - ".$tre[0]["c02_destino"]." (".$dist_esp_tot."km)";
 	if (strlen($titulo) > 0) $txt_Pag .= "<br />".$titulo;
 	
@@ -347,4 +354,43 @@ function geraTxtTimestamp($iCat, $iMod, $strMod, $iOficial) {
 	return $txt_especifico;
 }
 
+
+function timetosec4($time){
+	//$str_time = preg_replace("/^([\d]{1,2})\:([\d]{2})$/", "00:$1:$2", $time);
+	//sscanf($str_time, "%d:%d:%d", $hours, $minutes, $seconds);
+	$arr_time = explode(":",$time);
+	$hours = $arr_time[0];
+	$minutes = $arr_time[1];
+	$seconds = str_replace(",", ".", $arr_time[2]);
+	$time_seconds = $hours * 3600 + $minutes * 60 + $seconds;
+	return $time_seconds*10;
+}
+
+function posicoes_coluna($lista, $coluna){
+	$array_coluna = array();
+
+	for($f=0; $f < sizeof($lista); $f++){
+
+		$tempo = timetosec4($lista[$f][$coluna]);
+		if($tempo != 99999 && $lista[$f][$coluna] != "* * *"){
+			$array_coluna[] = $tempo;
+		}
+	}
+
+	$array_coluna_original = $array_coluna;
+	sort($array_coluna);
+
+	$array_posicoes = array();
+
+	foreach($array_coluna_original as $key => $val){
+		foreach($array_coluna as $key2 => $val2){
+			if($val == $val2){
+				$array_posicoes[] = $key2+1;
+				//$array_posicoes[] = ($key2+1)."-".($val);
+			}
+		}
+	}
+
+	return $array_posicoes;
+}
 ?>

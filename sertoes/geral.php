@@ -76,7 +76,7 @@ foreach ($lista_array as $v) {
 	//TEMPOS DE CADA SS
 	if ($numero_trecho == 0) $length_str = 8;
 	else $length_str = 10; //8
-	foreach ($arr_ss as $x) array_push($lista[$i],substr($v['ss'.$x],0,$length_str));
+	//foreach ($arr_ss as $x) array_push($lista[$i],substr($v['ss'.$x],0,$length_str));	foreach ($arr_ss as $x) array_push($lista[$i],$v['ss'.$x]);
 
 	//TEMPO	BRUTO
 	array_push($lista[$i], '<b>'.substr($v['tempo'],0,$length_str)."</b>");

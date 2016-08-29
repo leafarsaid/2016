@@ -45,7 +45,9 @@ function geraDadosGeral($arr_comp, $iFIM) {
 
 		//TEMPOS DE CADA SS
 		foreach ($arr_ss as $x) {
-			$strTempo = ($stat == "D") ? "* * *" : $arr_comp[$i]["ss".$x];
+			//$tempo_ss = ($arr_comp[$i]["ss".$x]==99999) ? "* * *" : substr(secToTime($arr_comp[$i]["ss".$x]),0,10);
+			
+			$strTempo = ($stat == "D") ? "* * *" : substr($arr_comp[$i]["ss".$x],0,10);
 			array_push($arr_retorno[$i],$strTempo);
 		}
 
