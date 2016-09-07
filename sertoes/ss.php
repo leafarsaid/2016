@@ -22,14 +22,14 @@ require_once"util/geraDados.php";
 $int_id_ss=(int)$_REQUEST["trecho"];
 $int_id_cat= ($_REQUEST["subcategoria"]) ? (int)$_REQUEST["subcategoria"] : (int)$_REQUEST["categoria"];
 if (isset($trecho_final)) $numero_trecho = $trecho_final;
-else if (strlen($int_id_ss) > 0) $numero_trecho = $int_id_ss;
+else if (strlen($int_id_ss) >= 0) $numero_trecho = $int_id_ss;
 
 $strBaseURL = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 $exp = explode('/', $strBaseURL);
 array_pop($exp);
 $strBaseURL = implode('/', $exp);
 
-if($numero_trecho==0) $numero_trecho = null;
+//if($numero_trecho==0) $numero_trecho = null;
 
 //--------------------------------------------------------------------------
 //--------------------------------------------------------------------------
@@ -132,7 +132,7 @@ array_push($campos_header_ss,'TOTAL<div style="font-size:10px"><br>Dif. Lider</d
 	</head>
 
 	<body marginheight="0" marginwidth="0" leftmargin="0" topmargin="0" bgcolor="#000000">
-		<? echo printHeader(
+		<?  echo printHeader(
 					geraTxtPag("ss",$_REQUEST["trechos"], $numero_trecho),
 					geraTxtTimestamp($int_id_cat, $_REQUEST["modalidade"], $_REQUEST["mod"], $_REQUEST["oficial"]), $_REQUEST["fim"]); ?>
 		<table border="0" cellpadding="0" cellspacing="0" bgcolor="#000000" align="center" width="100%">
