@@ -315,7 +315,7 @@ function geraTxtPag($sPag, $sTrechos, $iTrecho) {
 	global $arr_ss;
 	
 	$titulo = $_REQUEST['titulo'];
-	if (!$iTrecho && $iTrecho!=0){
+	if (!$iTrecho){
 		$ult = sizeof($arr_ss)-1;
 		$iTrecho =$arr_ss[$ult];
 	}

@@ -119,23 +119,26 @@
 	<body marginheight="0" marginwidth="0" leftmargin="0" rightmargin="0" topmargin="0" bgcolor="#000000">
 <div style="text-align: center;">
 <table
-style="position: fixed; text-align: left; width: 100%; height: 100%; margin-bottom: 20px; margin-left: auto; margin-right: auto;"
+style="text-align: left; width: 100%; margin-left: auto; margin-right: auto;"
 border="0" cellpadding="0" cellspacing="0">
 <tbody>
 <tr>
 <td style="vertical-align: middle; width: 50%; text-align: right;"><br>
-<a href="index_carro.php"><img style="width: auto; height: 30%;"
-alt="Resultados Carros" src="images/icone-carro.svg"></a><br>
+<a href="index_carro.php"><img style="width: 300px; height: 300px;"
+alt="Resultados Carros" src="images/icone-carro.png"></a><br>
 <br>
-<a href="index_moto.php"><img style="width: auto; height: 30%;"
-alt="Resultados Motos" src="images/icone-moto.svg"></a><br>
+<a href="index_moto.php"><img style="width: 300px; height: 300px;"
+alt="Resultados Motos" src="images/icone-moto.png"></a><br>
 <br>
-<a href="index_utv.php"><img style="width: auto; height: 30%;"
-alt="Resultados UTV" src="images/icone-utv.svg"></a><br>
+<a href="index_utv.php"><img style="width: 300px; height: 300px;"
+alt="Resultados UTV" src="images/icone-utv.png"></a><br>
+<br>
+<a href="http://www.rallyvirtual.com.br/sitenovo/index.php/component/content/article/35-resultados/2382-0409-sertoes-2016"><img style="width: 300px; height: 300px;"
+alt="Resultados Regularidade" src="images/icone-regularidade.png"></a><br>
 <br>
 </td>
 <td
-style="vertical-align: middle; width: 50%; text-align: center;"><img
+style="vertical-align: top; width: 50%; text-align: center;"><img
 style="width: 200px; height: 212px;" alt="Rally dos Sertões 2016"
 src="images/logo-sertoes2.png"><br>
 <br>

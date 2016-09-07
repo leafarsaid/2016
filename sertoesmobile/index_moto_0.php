@@ -59,6 +59,12 @@
 	font-weight: bold;
 	font-size: xx-large;
 }
+.auto-style2 {
+	border-width: 1px;
+	background-color: #CC9900;
+	font-size: xx-large;
+	font-weight: bold;
+}
 .auto-style4 {
 	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
@@ -68,6 +74,11 @@
 	background-color: #CC9900;
 }
 .auto-style9 {
+	font-size: x-large;
+}
+.auto-style11 {
+	color: #CC9900;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: x-large;
 }
 .auto-style12 {
@@ -85,6 +96,9 @@
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: xx-large;
 }
+.auto-style15 {
+	font-size: xx-large;
+}
 .auto-style16 {
 	font-weight: normal;
 }
@@ -94,11 +108,10 @@
 	font-size: larger;
 	font-weight: bold;
 }
-.auto-style19 {
-	font-size: large;
-}
-.auto-style20 {
-	font-size: small;
+.auto-style18 {
+	color: #CC9900;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
 }
 		-->
 		</style>
@@ -137,88 +150,76 @@ cellspacing="0">
 <tbody>
 <tr bgcolor="#cc9900">
 <td colspan="1" class="auto-style1" align="center">
-<img alt=""
-src="imagens/chronosat_preto.png" align="middle" height="55"
-width="146"><br />
-RESULTADOS ACUMULADOS ON-LINE <span class="auto-style20"><br />
-(EXTRA-OFICIAIS)</span></td>
+RESULTADOS ON-LINE (EXTRA-OFICIAIS)&nbsp;&nbsp;&nbsp; <img alt=""
+src="imagens/chronosat_preto.png" align="middle" height="45"
+width="121"></td>
 </tr>
 <tr align="center" valign="top">
-<td style="width: 247px;"> <span class="auto-style17"> <a
-href="geralred_m.php?db=1"><em>CARROS</em></a></span><span
+<td style="width: 323px;"> <span class="auto-style18"> <a
+href="geralred_m.php?db=2"><em>MOTOS e QUADRIS</em></a></span><span
 class="auto-style12"><br>
 <br>
 </span> <b> <span class="auto-style14"> <span
-class="auto-style16"> <a href="geralred_m.php?db=1&amp;categoria=2">T1 FIA</a><br>
+class="auto-style16"> <a href="geralred_m.php?db=2&categoria=11">SUPER
+PROD.<br>
 <br>
-<a href="geralred_m.php?db=1&categoria=3"> PROT.&nbsp; T1</a><br>
+<a href="geralred_m.php?db=2&categoria=12"> PROD. ABERTA</a><br>
 <br>
-<a href="geralred_m.php?db=1&categoria=4">PRO BRASIL</a><br>
+<a href="geralred_m.php?db=2&categoria=13">MARATHON</a><br>
 <br>
-<a href="geralred_m.php?db=1&categoria=5">SUPER PROD.<br>
-</span><br>
+<a href="geralred_m.php?db=2&categoria=14">OVER 45</a></span><br>
+<br>
 <span class="auto-style16"> <a
-href="geralred_m.php?db=1&categoria=6"> PROD. T2</a><br>
+href="geralred_m.php?db=2&categoria=15">CRF 230</a><br>
 <br>
-<a href="geralred_m.php?db=1&campeonato=T&categoria=7">TR4</a></span><br>
+<a href="geralred_m.php?db=2&categoria=16">QUADRIS</a></span><br>
 </span> </b> </td>
 </tr>
-	<tr>
-<td colspan="1" class="auto-style4" align="center">
-RESULTADOS ON-LINE POR ETAPA<br />
-<span class="auto-style19">(EXTRA-OFICIAIS)</span></td>
-	</tr>
 <tr align="center" valign="top">
-<td class="auto-style14" style="width: 247px;"> <br>
-<b><span class="auto-style16"> <a
-href="ss_m.php?db=1&trecho=0">Prólogo - 03/09</a><br>
+<td class="auto-style11" style="width: 323px;"> <br>
+<b><span class="auto-style15"> <span class="auto-style16">
+<a href="ss_m.php?db=2&trecho=0">Prólogo - 03/09</a><br>
 <br>
-<a href="ss_m.php?db=1&trecho=1">Etapa 1 - 04/09</a><br>
+<a href="ss_m.php?db=2&trecho=1">Etapa 1 - 04/09</a><br>
 <br>
-<a href="ss_m.php?db=1&trecho=2">Etapa 2 - 05/09</a><br>
+<a href="ss_m.php?db=2&trecho=2">Etapa 2 - 05/09</a><br>
 <br>
-<a href="ss_m.php?db=1&trecho=3">Etapa 3 - 06/09</a><br>
-<!--
+<a href="ss_m.php?db=2&trecho=3">Etapa 3 - 06/09</a><br>
 <br>
-<a href="ss_m.php?db=1&trecho=4">Etapa 4 - 07/09</a><br>
+<a href="ss_m.php?db=2&trecho=4">Etapa 4 - 07/09</a><br>
 <br>
-<a href="ss_m.php?db=1&trecho=5">Etapa 5 - 08/09</a><br>
+<a href="ss_m.php?db=2&trecho=5">Etapa 5 - 08/09</a><br>
 <br>
-<a href="ss_m.php?db=1&trecho=6">Etapa 6 - 09/09</a><br>
+<a href="ss_m.php?db=2&trecho=6">Etapa 6 - 09/09</a><br>
 <br>
-<a href="ss_m.php?db=1&trecho=7">Etapa 7 - 10/09</a></span></b><br>
-	-->
+</span></span><span class="auto-style16"> <span
+class="auto-style15"> <a href="ss_m.php?db=2&trecho=7">Etapa 7 -
+10/09</a></span></span></b><br>
 </td>
+</tr>
 <tr align="center" valign="top">
 <td class="auto-style4" style="width: 323px;"> ORDEM DE
 LARGADA</td>
 </tr>
 <tr align="center" valign="top">
-<td style="width: 239px;"> <span class="auto-style12"> &nbsp;CARROS</span><br>
+<td style="width: 323px;"> <span class="auto-style12"> <a
+href="geralred_m.php?db=2">Motos e Quadris</a></span><br>
 <br class="auto-style13">
 <span class="auto-style12"> <a
-href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_carros_largada_et0.pdf">Prologo - 03/09</a><br>
+href="sertoes2016_motos_largada_et1.pdf">Etapa 1 - 04/09</a><br>
 <br>
-<a href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_carros_largada_et1.pdf">Etapa 1 - 04/09</a><br>
+<a href="sertoes2016_motos_largada_et2.pdf">Etapa 2 - 05/09</a><br>
 <br>
-<a href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_carros_largada_et2.pdf">Etapa 2 - 05/09</a><br>
+<a href="sertoes2016_motos_largada_et3.pdf">Etapa 3 - 06/09</a><br>
 <br>
-<a href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_carros_largada_et3.pdf">Etapa 3 - 06/09</a><br>
-<!--
+<a href="sertoes2016_motos_largada_et4.pdf">Etapa 4 - 07/09</a><br>
 <br>
-<a href="sertoes2016_carros_largada_et4.pdf">Etapa 4 - 07/09</a><br>
+<a href="sertoes2016_motos_largada_et5.pdf">Etapa 5 - 08/09</a><br>
 <br>
-<a href="sertoes2016_carros_largada_et5.pdf">Etapa 5 - 08/09</a><br>
+<a href="sertoes2016_motos_largada_et6.pdf">Etapa 6 - 09/09</a><br>
 <br>
-<a href="sertoes2016_carros_largada_et6.pdf">Etapa 6 - 09/09</a><br>
-<br>
-<a href="sertoes2016_carros_largada_et7.pdf">Etapa 7 - 10/09</a><br>
--->
+<a href="sertoes2016_motos_largada_et7.pdf">Etapa 7 - 10/09</a><br>
 </span> </td>
-</tr>
-</tbody>
-</table>
-</td>
 </tr>
 </tbody>
 </table>

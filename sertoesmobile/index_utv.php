@@ -59,12 +59,6 @@
 	font-weight: bold;
 	font-size: xx-large;
 }
-.auto-style2 {
-	border-width: 1px;
-	background-color: #CC9900;
-	font-size: xx-large;
-	font-weight: bold;
-}
 .auto-style4 {
 	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
@@ -74,11 +68,6 @@
 	background-color: #CC9900;
 }
 .auto-style9 {
-	font-size: x-large;
-}
-.auto-style11 {
-	color: #CC9900;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: x-large;
 }
 .auto-style12 {
@@ -96,9 +85,6 @@
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: xx-large;
 }
-.auto-style15 {
-	font-size: xx-large;
-}
 .auto-style16 {
 	font-weight: normal;
 }
@@ -108,10 +94,17 @@
 	font-size: larger;
 	font-weight: bold;
 }
-.auto-style18 {
-	color: #CC9900;
+.auto-style19 {
+	font-size: small;
+}
+.auto-style20 {
+	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
+	font-size: xx-large;
+	border-width: 1px;
+	background-color: #CC9900;
+	text-align: center;
 }
 		-->
 		</style>
@@ -150,9 +143,11 @@ cellspacing="0">
 <tbody>
 <tr bgcolor="#cc9900">
 <td colspan="1" class="auto-style1" align="center">
-RESULTADOS ON-LINE (EXTRA-OFICIAIS)&nbsp;&nbsp;&nbsp; <img alt=""
-src="imagens/chronosat_preto.png" align="middle" height="45"
-width="121"></td>
+<img alt=""
+src="imagens/chronosat_preto.png" align="middle" height="54"
+width="147"><br />
+RESULTADOS ACUMULADOS ON-LINE <span class="auto-style19"><br />
+(EXTRA-OFICIAIS)</span> </td>
 </tr>
 <tr align="center" valign="top">
 <td style="width: 239px;"> <span class="auto-style17"> <a
@@ -166,6 +161,11 @@ PRO</a><br>
 <a href="geralred_m.php?db=3&categoria=22">UTV SUPER PROD</a></span>.<b><br>
 </b> </span> </td>
 </tr>
+	<tr>
+<td class="auto-style20" style="width: 323px;"> RESULTADOS POR ETAPA ONLINE
+<span class="auto-style19"><br />
+(EXTRA-OFICIAIS)</span> </td>
+	</tr>
 <tr align="center" valign="top">
 <td class="auto-style14" style="width: 239px;"> <br>
 <b><span class="auto-style16"> <a
@@ -177,6 +177,7 @@ href="ss_m.php?db=3&trecho=0">Prólogo - 03/09</a><br>
 <br>
 <a href="ss_m.php?db=3&trecho=3">Etapa 3 - 06/09</a><br>
 <br>
+<!--
 <a href="ss_m.php?db=3&trecho=4">Etapa 4 - 07/09</a><br>
 <br>
 <a href="ss_m.php?db=3&trecho=5">Etapa 5 - 08/09</a><br>
@@ -184,21 +185,24 @@ href="ss_m.php?db=3&trecho=0">Prólogo - 03/09</a><br>
 <a href="ss_m.php?db=3&trecho=6">Etapa 6 - 09/09</a><br>
 <br>
 <a href="ss_m.php?db=3&trecho=7">Etapa 7 - 10/09</a></span></b><br>
+	-->
 </td>
 <tr align="center" valign="top">
 <td class="auto-style4" style="width: 323px;"> ORDEM DE
 LARGADA</td>
 </tr>
 <tr align="center" valign="top">
-<td style="width: 239px;"> <span class="auto-style12"> <a
-href="geralred_m.php?db=2">&nbsp;UTVs</a></span><br>
+<td style="width: 239px;"> <span class="auto-style12"> &nbsp;UTVs</span><br>
 <br class="auto-style13">
 <span class="auto-style12"> <a
-href="sertoes2016_utv_largada_et1.pdf">Etapa 1 - 04/09</a><br>
+href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_utv_largada_et0.pdf">Prologo - 03/09</a><br>
 <br>
-<a href="sertoes2016_utv_largada_et2.pdf">Etapa 2 - 05/09</a><br>
+<a href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_utv_largada_et1.pdf">Etapa 1 - 04/09</a><br>
 <br>
-<a href="sertoes2016_utv_largada_et3.pdf">Etapa 3 - 06/09</a><br>
+<a href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_utv_largada_et2.pdf">Etapa 2 - 05/09</a><br>
+<br>
+<a href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_utv_largada_et3.pdf">Etapa 3 - 06/09</a><br>
+<!--
 <br>
 <a href="sertoes2016_utv_largada_et4.pdf">Etapa 4 - 07/09</a><br>
 <br>

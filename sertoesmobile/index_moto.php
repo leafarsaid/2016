@@ -59,12 +59,6 @@
 	font-weight: bold;
 	font-size: xx-large;
 }
-.auto-style2 {
-	border-width: 1px;
-	background-color: #CC9900;
-	font-size: xx-large;
-	font-weight: bold;
-}
 .auto-style4 {
 	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
@@ -102,16 +96,13 @@
 .auto-style16 {
 	font-weight: normal;
 }
-.auto-style17 {
-	color: #CC9900;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: larger;
-	font-weight: bold;
-}
 .auto-style18 {
 	color: #CC9900;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
+}
+		.auto-style19 {
+	font-size: large;
 }
 		-->
 		</style>
@@ -150,9 +141,11 @@ cellspacing="0">
 <tbody>
 <tr bgcolor="#cc9900">
 <td colspan="1" class="auto-style1" align="center">
-RESULTADOS ON-LINE (EXTRA-OFICIAIS)&nbsp;&nbsp;&nbsp; <img alt=""
-src="imagens/chronosat_preto.png" align="middle" height="45"
-width="121"></td>
+<img alt=""
+src="imagens/chronosat_preto.png" align="middle" height="60"
+width="146"><br />
+RESULTADOS ACUMULADOS ON-LINE<br />
+<span class="auto-style19">(EXTRA-OFICIAIS)</span></td>
 </tr>
 <tr align="center" valign="top">
 <td style="width: 323px;"> <span class="auto-style18"> <a
@@ -175,6 +168,11 @@ href="geralred_m.php?db=2&categoria=15">CRF 230</a><br>
 <a href="geralred_m.php?db=2&categoria=16">QUADRIS</a></span><br>
 </span> </b> </td>
 </tr>
+	<tr>
+<td colspan="1" class="auto-style4" align="center">
+RESULTADOS ON-LINE POR ETAPA<br />
+<span class="auto-style19">(EXTRA-OFICIAIS)</span></td>
+	</tr>
 <tr align="center" valign="top">
 <td class="auto-style11" style="width: 323px;"> <br>
 <b><span class="auto-style15"> <span class="auto-style16">
@@ -186,6 +184,7 @@ href="geralred_m.php?db=2&categoria=15">CRF 230</a><br>
 <br>
 <a href="ss_m.php?db=2&trecho=3">Etapa 3 - 06/09</a><br>
 <br>
+<!--
 <a href="ss_m.php?db=2&trecho=4">Etapa 4 - 07/09</a><br>
 <br>
 <a href="ss_m.php?db=2&trecho=5">Etapa 5 - 08/09</a><br>
@@ -195,6 +194,7 @@ href="geralred_m.php?db=2&categoria=15">CRF 230</a><br>
 </span></span><span class="auto-style16"> <span
 class="auto-style15"> <a href="ss_m.php?db=2&trecho=7">Etapa 7 -
 10/09</a></span></span></b><br>
+-->
 </td>
 </tr>
 <tr align="center" valign="top">
@@ -202,16 +202,18 @@ class="auto-style15"> <a href="ss_m.php?db=2&trecho=7">Etapa 7 -
 LARGADA</td>
 </tr>
 <tr align="center" valign="top">
-<td style="width: 323px;"> <span class="auto-style12"> <a
-href="geralred_m.php?db=2">Motos e Quadris</a></span><br>
+<td style="width: 239px;"> <span class="auto-style12"> &nbsp;Motos e Quadris</span><br>
 <br class="auto-style13">
 <span class="auto-style12"> <a
-href="sertoes2016_motos_largada_et1.pdf">Etapa 1 - 04/09</a><br>
+href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_motos_largada_et0.pdf">Prologo - 03/09</a><br>
 <br>
-<a href="sertoes2016_motos_largada_et2.pdf">Etapa 2 - 05/09</a><br>
+<a href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_motos_largada_et1.pdf">Etapa 1 - 04/09</a><br>
 <br>
-<a href="sertoes2016_motos_largada_et3.pdf">Etapa 3 - 06/09</a><br>
+<a href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_motos_largada_et2.pdf">Etapa 2 - 05/09</a><br>
 <br>
+<a href="http://www.chronosat.com.br/2016/sertoes/resultados/largada/sertoes2016_motos_largada_et3.pdf">Etapa 3 - 06/09</a><br>
+<br>
+<!--
 <a href="sertoes2016_motos_largada_et4.pdf">Etapa 4 - 07/09</a><br>
 <br>
 <a href="sertoes2016_motos_largada_et5.pdf">Etapa 5 - 08/09</a><br>
@@ -219,6 +221,8 @@ href="sertoes2016_motos_largada_et1.pdf">Etapa 1 - 04/09</a><br>
 <a href="sertoes2016_motos_largada_et6.pdf">Etapa 6 - 09/09</a><br>
 <br>
 <a href="sertoes2016_motos_largada_et7.pdf">Etapa 7 - 10/09</a><br>
+-->
+
 </span> </td>
 </tr>
 </tbody>

@@ -59,9 +59,7 @@
 		</style>
 		<script type="text/javascript">
  <!--
- if (screen.width <= 800) {
-   window.location = "http://www.chronosat.com.br/2016/sertoesmobile/index_menu.php";
- }
+ 
  //-->
 </script>
 	</head>
@@ -97,7 +95,7 @@
 									<a href="geral.php?db=1&categoria=4">PRO BRASIL</a><br />
 									<a href="geral.php?db=1&categoria=5">SUPER PRODUCTION</a><br />
 									<a href="geral.php?db=1&categoria=6">PRODUCTION T2</a><br />
-									<a href="geral.php?db=1&campeonato=T">TR4</a><br />
+									<a href="geral.php?db=1&categoria=7">TR4</a><br />
 								</span>
 							</td>
 							<td class="auto-style1">
@@ -126,7 +124,7 @@
 						<tr align="center" valign="top">
 							<td align="right" bgcolor="#CC9900" class="auto-style1"><span class="style0">RESULTADO POR ETAPA</span></td>
 							<td class="auto-style1">
-								<span class="style5">
+							<span class="style5">
 									<a href="ss.php?db=1&trecho=0">Prólogo - 03/09</a><br />
 									<a href="ss.php?db=1&trecho=1">Etapa 1 - 04/09</a><br />
 									<a href="intermediarias.php?db=1&trecho=2&intermediarias=3">Etapa 2 - 05/09</a><br />

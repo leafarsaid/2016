@@ -136,7 +136,7 @@ array_push($campos_header_ss,'TOTAL<div style="font-size:20px"><br>Dif. Lider</d
 					geraTxtPag("ss",$_REQUEST["trechos"],$numero_trecho)
 					,geraTxtTimestamp($int_id_cat, $_REQUEST["modalidade"], $_REQUEST["mod"], $_REQUEST["oficial"])
 					,$_REQUEST["fim"]
-				); 
+				);
 		?>
 		<table border="0" cellpadding="0" cellspacing="0" bgcolor="#000000" align="center" width="100%">
 			<tr>

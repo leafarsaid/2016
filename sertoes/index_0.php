@@ -97,7 +97,7 @@
 									<a href="geral.php?db=1&categoria=4">PRO BRASIL</a><br />
 									<a href="geral.php?db=1&categoria=5">SUPER PRODUCTION</a><br />
 									<a href="geral.php?db=1&categoria=6">PRODUCTION T2</a><br />
-									<a href="geral.php?db=1&campeonato=T">TR4</a><br />
+									<a href="geral.php?db=1&categoria=7">TR4</a><br />
 								</span>
 							</td>
 							<td class="auto-style1">
@@ -128,40 +128,36 @@
 							<td class="auto-style1">
 								<span class="style5">
 									<a href="ss.php?db=1&trecho=0">Prólogo - 03/09</a><br />
-									<a href="ss.php?db=1&trecho=1">Etapa 1 - 04/09</a><br />
-									<a href="intermediarias.php?db=1&trecho=2&intermediarias=3">Etapa 2 - 05/09</a><br />
-									<a href="ss.php?db=1&trecho=3">Etapa 3 - 06/09</a><br />
-									<!--
-									<a href="ss.php?db=1&trecho=4">Etapa 4 - 07/09</a><br />
-									<a href="ss.php?db=1&trecho=5">Etapa 5 - 08/09</a><br />
-									<a href="ss.php?db=1&trecho=6">Etapa 6 - 09/09</a><br />
-									<a href="ss.php?db=1&trecho=7">Etapa 7 - 10/09</a><br />										-->
+									<a href="intermediarias.php?db=1&trecho=1&intermediarias=4">Etapa 1 - 04/09</a><br />
+									<a href="intermediarias.php?db=1&trecho=2&intermediarias=4">Etapa 2 - 05/09</a><br />
+									<a href="intermediarias.php?db=1&trecho=3&intermediarias=4">Etapa 3 - 06/09</a><br />
+									<a href="intermediarias.php?db=1&trecho=4&intermediarias=4">Etapa 4 - 07/09</a><br />
+									<a href="intermediarias.php?db=1&trecho=5&intermediarias=4">Etapa 5 - 08/09</a><br />
+									<a href="intermediarias.php?db=1&trecho=6&intermediarias=4">Etapa 6 - 09/09</a><br />
+									<a href="intermediarias.php?db=1&trecho=7&intermediarias=4">Etapa 7 - 10/09</a><br />
 								</span>
 							</td>
 							<td class="auto-style1">
 								<span class="style5">
-									Prólogo - 03/09</a >  : <a href="ss.php?db=2&trecho=0&modalidade=2"> Motos</a> - <a href="ss.php?db=2&trecho=0&modalidade=3">Quadris</a><br />
-									<a href="ss.php?db=2&trecho=1">Etapa 1 - 04/09</a><br />
-									<a href="intermediarias.php?db=2&trecho=2&intermediarias=3">Etapa 2 - 05/09</a><br />
-									<a href="ss.php?db=2&trecho=3">Etapa 3 - 06/09</a><br />
-									<!--
-									<a href="ss.php?db=2&trecho=4">Etapa 4 - 07/09</a><br />
-									<a href="ss.php?db=2&trecho=5">Etapa 5 - 08/09</a><br />
-									<a href="ss.php?db=2&trecho=6">Etapa 6 - 09/09</a><br />
-									<a href="ss.php?db=2&trecho=7">Etapa 7 - 10/09</a><br />									-->
+									Prólogo - 03/09</a >  : <a href="ss.php?db=2&trecho=0&modalidade=1"> Motos</a> - <a href="ss.php?db=2&trecho=0&modalidade=2">Quadris</a><br />
+									<a href="intermediarias.php?db=2&trecho=1&intermediarias=4">Etapa 1 - 04/09</a><br />
+									<a href="intermediarias.php?db=2&trecho=2&intermediarias=4">Etapa 2 - 05/09</a><br />
+									<a href="intermediarias.php?db=2&trecho=3&intermediarias=4">Etapa 3 - 06/09</a><br />
+									<a href="intermediarias.php?db=2&trecho=4&intermediarias=4">Etapa 4 - 07/09</a><br />
+									<a href="intermediarias.php?db=2&trecho=5&intermediarias=4">Etapa 5 - 08/09</a><br />
+									<a href="intermediarias.php?db=2&trecho=6&intermediarias=4">Etapa 6 - 09/09</a><br />
+									<a href="intermediarias.php?db=2&trecho=7&intermediarias=4">Etapa 7 - 10/09</a><br />								</span>
 							</td>
 							<td class="auto-style1">
 								<span class="style5">
 									<a href="ss.php?db=3&trecho=0">Prólogo - 03/09</a><br />
-									<a href="ss.php?db=3&trecho=1">Etapa 1 - 04/09</a><br />
-									<a href="intermediarias.php?db=3&trecho=2&intermediarias=3">Etapa 2 - 05/09</a><br />
-									<a href="ss.php?db=3&trecho=3">Etapa 3 - 06/09</a><br />
-									<!--
-									<a href="ss.php?db=3&trecho=4">Etapa 4 - 07/09</a><br />
-									<a href="ss.php?db=3&trecho=5">Etapa 5 - 08/09</a><br />
-									<a href="ss.php?db=3&trecho=6">Etapa 6 - 09/09</a><br />
-									<a href="ss.php?db=3&trecho=7">Etapa 7 - 10/09</a><br />	
-									-->
+									<a href="intermediarias.php?db=3&trecho=1&intermediarias=4">Etapa 1 - 04/09</a><br />
+									<a href="intermediarias.php?db=3&trecho=2&intermediarias=4">Etapa 2 - 05/09</a><br />
+									<a href="intermediarias.php?db=3&trecho=3&intermediarias=4">Etapa 3 - 06/09</a><br />
+									<a href="intermediarias.php?db=3&trecho=4&intermediarias=4">Etapa 4 - 07/09</a><br />
+									<a href="intermediarias.php?db=3&trecho=5&intermediarias=4">Etapa 5 - 08/09</a><br />
+									<a href="intermediarias.php?db=3&trecho=6&intermediarias=4">Etapa 6 - 09/09</a><br />
+									<a href="intermediarias.php?db=3&trecho=7&intermediarias=4">Etapa 7 - 10/09</a><br />	
 								</span>
 							</td>
 						</tr>
@@ -169,44 +165,36 @@
 							<td align="right" bgcolor="#CC9900" class="auto-style1"><span class="style0">ORDENS DE LARGADA</span></td>
 							<td class="auto-style1">
 								<span class="style5">
-									<a href="resultados/largada/sertoes2016_carros_largada_et0.pdf">Prologo - 03/09</a><br />
-									<a href="resultados/largada/sertoes2016_carros_largada_et1.pdf">Etapa 1 - 04/09</a><br />
-									<a href="resultados/largada/sertoes2016_carros_largada_et2.pdf">Etapa 2 - 05/09</a><br />
-									<a href="resultados/largada/sertoes2016_carros_largada_et3.pdf">Etapa 3 - 06/09</a><br />
-									<!--
-									<a href="resultados/largada/sertoes2016_carros_largada_et4.pdf">Etapa 4 - 07/09</a><br />
-									<a href="resultados/largada/sertoes2016_carros_largada_et5.pdf">Etapa 5 - 08/09</a><br />
-									<a href="resultados/largada/sertoes2016_carros_largada_et6.pdf">Etapa 6 - 09/09</a><br />
-									<a href="resultados/largada/sertoes2016_carros_largada_et7.pdf">Etapa 7 - 10/09</a><br />
-									-->
+									<a href="sertoes2016_carros_largada_et1.pdf">Etapa 1 - 04/09</a><br />
+									<a href="sertoes2016_carros_largada_et2.pdf">Etapa 2 - 05/09</a><br />
+									<a href="sertoes2016_carros_largada_et3.pdf">Etapa 3 - 06/09</a><br />
+									<a href="sertoes2016_carros_largada_et4.pdf">Etapa 4 - 07/09</a><br />
+									<a href="sertoes2016_carros_largada_et5.pdf">Etapa 5 - 08/09</a><br />
+									<a href="sertoes2016_carros_largada_et6.pdf">Etapa 6 - 09/09</a><br />
+									<a href="sertoes2016_carros_largada_et7.pdf">Etapa 7 - 10/09</a><br />
 								</span>
 							</td>
 							<td class="auto-style1">
 								<span class="style5">
-									<a href="resultados/largada/sertoes2016_motos_largada_et0.pdf">Prologo - 03/09</a><br />
-									<a href="resultados/largada/sertoes2016_motos_largada_et1.pdf">Etapa 1 - 04/09</a><br />
-									<a href="resultados/largada/sertoes2016_motos_largada_et2.pdf">Etapa 2 - 05/09</a><br />
-									<a href="resultados/largada/sertoes2016_motos_largada_et3.pdf">Etapa 3 - 06/09</a><br />
-									<!--
-									<a href="resultados/largada/sertoes2016_motos_largada_et4.pdf">Etapa 4 - 07/09</a><br />
-									<a href="resultados/largada/sertoes2016_motos_largada_et5.pdf">Etapa 5 - 08/09</a><br />
-									<a href="resultados/largada/sertoes2016_motos_largada_et6.pdf">Etapa 6 - 09/09</a><br />
-									<a href="resultados/largada/sertoes2016_motos_largada_et7.pdf">Etapa 7 - 10/09</a><br />
-									-->
+									<a href="sertoes2016_motos_largada_et1.pdf">Etapa 1 - 04/09</a><br />
+									<a href="sertoes2016_motos_largada_et2.pdf">Etapa 2 - 05/09</a><br />
+									<a href="sertoes2016_motos_largada_et3.pdf">Etapa 3 - 06/09</a><br />
+									<a href="sertoes2016_motos_largada_et4.pdf">Etapa 4 - 07/09</a><br />
+									<a href="sertoes2016_motos_largada_et5.pdf">Etapa 5 - 08/09</a><br />
+									<a href="sertoes2016_motos_largada_et6.pdf">Etapa 6 - 09/09</a><br />
+									<a href="sertoes2016_motos_largada_et7.pdf">Etapa 7 - 10/09</a><br />
 								</span>
 							</td>
 							<td class="auto-style1">
 								<span class="style5">
-									<a href="resultados/largada/sertoes2016_utv_largada_et0.pdf">Prologo - 03/09</a><br />
-									<a href="resultados/largada/sertoes2016_utv_largada_et1.pdf">Etapa 1 - 04/09</a><br />
-									<a href="resultados/largada/sertoes2016_utv_largada_et2.pdf">Etapa 2 - 05/09</a><br />
-									<a href="resultados/largada/sertoes2016_utv_largada_et3.pdf">Etapa 3 - 06/09</a><br />
-									<!--									
+									<a href="sertoes2016_utv_largada_et1.pdf">Etapa 1 - 04/09</a><br />
+									<a href="sertoes2016_utv_largada_et2.pdf">Etapa 2 - 05/09</a><br />
+									<a href="sertoes2016_utv_largada_et3.pdf">Etapa 3 - 06/09</a><br />
 									<a href="sertoes2016_utv_largada_et4.pdf">Etapa 4 - 07/09</a><br />
 									<a href="sertoes2016_utv_largada_et5.pdf">Etapa 5 - 08/09</a><br />
 									<a href="sertoes2016_utv_largada_et6.pdf">Etapa 6 - 09/09</a><br />
 									<a href="sertoes2016_utv_largada_et7.pdf">Etapa 7 - 10/09</a><br />
--->
+
 								</span>
 							</td>
 						</tr>

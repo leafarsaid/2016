@@ -142,7 +142,7 @@ array_push($campos_header_ss,"NO");
 array_push($campos_header_ss,'<div class="trip" id="div">PILOTO/NAVEGADOR</div>');
 if (!isset($_REQUEST["categoria"])) array_push($campos_header_ss,"(POS)CAT");
 array_push($campos_header_ss,'<div style="color:red">Penal</div><div style="color:blue"><br>Bonus</div>');
-array_push($campos_header_ss,'TOTAL<div style="color:blue"><br>Dif. Lider</div>');
+array_push($campos_header_ss,'TOTAL<div style="font-size:10px"><br>Dif.Lider<div style="font-size:10px"><a>Dif.Anterior</div>');
 // ESPECIAL ESPECIAL ESPECIAL ESPECIAL ESPECIAL ESPECIAL ESPECIAL ESPECIAL ESPECIAL ESPECIAL ESPECIAL
 
 //--------------------------------------------------------------------------
@@ -155,7 +155,7 @@ array_push($campos_header_geral,'<div class="trip" id="div">PILOTO/NAVEGADOR</di
 if (!isset($_REQUEST["categoria"])) array_push($campos_header_geral,"(POS)CAT");
 array_push($campos_header_geral,'TEMPO');
 array_push($campos_header_geral,'<div style="color:red">Penal</div><div style="color:blue"><br>Bonus</div>');
-array_push($campos_header_geral,'TOTAL<div style="font-size:10px"><br>Dif. Lider</div>');
+array_push($campos_header_geral,'TOTAL<div style="font-size:10px"><br>Dif. Lider<div div style="font-size:10px"><a>Dif.Anterior</div>');
 //GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL GERAL
 ?>
 

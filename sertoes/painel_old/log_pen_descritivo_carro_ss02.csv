@@ -1,0 +1,16 @@
+315;00:02:00;VelPerm=20Km/h Pico=47Km/h as 10:52:05 (durante 5 seg ) Erro=27Km/h (135,00%)
+319;00:02:00;VelPerm=20Km/h Pico=48Km/h as 10:37:28 (durante 3 seg ) Erro=28Km/h (140,00%)
+319;00:02:00;VelPerm=40Km/h Pico=68Km/h as 13:37:50 (durante 7 seg ) Erro=28Km/h (70,00%)
+320;00:05:00;Perdeu 1 Wpt(s) Roteiro (W2321)
+320;00:02:00;VelPerm=20Km/h Pico=49Km/h as 11:01:01 (durante 4 seg ) Erro=29Km/h (145,00%)
+320;00:10:00;VelPerm=20Km/h Pico=53Km/h as 15:58:19 (durante 3 seg ) Erro=33Km/h (165,00%)
+322;00:10:00;VelPerm=20Km/h Pico=62Km/h as 10:22:24 (durante 4 seg ) Erro=42Km/h (210,00%)
+336;00:01:00;VelPerm=100Km/h Pico=105Km/h as 14:33:20 (durante 4 seg ) Erro=5Km/h (5,00%)
+339;00:02:00;VelPerm=20Km/h Pico=41Km/h as 15:32:40 (durante 3 seg ) Erro=21Km/h (105,00%)
+342;00:05:00;Perdeu 1 Wpt(s) Roteiro (W2321)
+355;00:05:00;Perdeu 1 Wpt(s) Roteiro (W2321)
+355;00:02:00;VelPerm=20Km/h Pico=45Km/h as 10:55:15 (durante 4 seg ) Erro=25Km/h (125,00%)
+355;00:01:00;VelPerm=30Km/h Pico=42Km/h as 13:35:30 (durante 8 seg ) Erro=12Km/h (40,00%)
+355;00:20:00;Excedeu 30 seg / Vel Perm=100Km/h Ini=15:06:59 Fim=15:07:36 (durante 37 seg) Pico=117Km/h
+355;00:20:00;Excedeu 30 seg / Vel Perm=40Km/h Ini=15:44:51 Fim=15:45:39 (durante 48 seg) Pico=83Km/h
+
